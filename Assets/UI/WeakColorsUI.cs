@@ -30,8 +30,5 @@ public class WeakColorsUI : MonoBehaviour {
 
         }
     }
-	
-	void Update () {
-	
-	}
+
 }

@@ -17,7 +17,21 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="Art_ColorWars.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5260"
+       x="-0.198"
+       width="1.396"
+       y="-0.198"
+       height="1.396">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.55982142"
+         id="feGaussianBlur5262" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="162.14286"
-     inkscape:cy="425.71429"
+     inkscape:zoom="31.678384"
+     inkscape:cx="1186.6222"
+     inkscape:cy="267.06858"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +49,12 @@
      inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-nodes="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -44,12 +63,429 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4141"
+       width="306.74246"
+       height="545.31995"
+       x="216.17265"
+       y="218.13864"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4143"
+       cx="369.28571"
+       cy="731.64795"
+       r="24.285715"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.63206291px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bc1717;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="353.55359"
+       y="734.36237"
+       id="text4149"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199"><tspan
+         sodipodi:role="line"
+         id="tspan4151"
+         x="353.55359"
+         y="734.36237">Avatar</tspan></text>
+    <circle
+       r="24.285715"
+       cy="296.49417"
+       cx="369.28571"
+       id="circle4153"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4155"
+       y="299.08231"
+       x="358.09927"
+       style="font-style:normal;font-weight:normal;font-size:9.63206291px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bc1717;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199"><tspan
+         y="299.08231"
+         x="358.09927"
+         id="tspan4157"
+         sodipodi:role="line">Boss</tspan></text>
+    <circle
+       style="opacity:1;fill:#0020ff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4159"
+       cx="316.6828"
+       cy="731.38623"
+       r="9.3439112"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <circle
+       r="9.3439112"
+       cy="731.38623"
+       cx="290.07529"
+       id="circle4161"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <circle
+       r="9.3439112"
+       cy="731.38623"
+       cx="449.1828"
+       id="circle4163"
+       style="opacity:1;fill:#34ff00;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <circle
+       style="opacity:1;fill:#ffed00;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4165"
+       cx="420.4324"
+       cy="731.38623"
+       r="9.3439112"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       style="opacity:1;fill:#6d6d6d;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4167"
+       width="3.5714285"
+       height="40.357143"
+       x="287.85715"
+       y="745.57654"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       y="-423.57489"
+       x="781.784"
+       height="129.75031"
+       width="3.5715203"
+       id="rect4169"
+       style="opacity:1;fill:#757575;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(-0.00806072,0.99996751,-0.99999858,-0.00168293,0,0)"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       y="745.57654"
+       x="314.64285"
+       height="40.357143"
+       width="3.5714285"
+       id="rect4171"
+       style="opacity:1;fill:#6d6d6d;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       y="745.57654"
+       x="-451.07779"
+       height="40.357143"
+       width="3.5714285"
+       id="rect4173"
+       style="opacity:1;fill:#6d6d6d;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="scale(-1,1)"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       transform="matrix(0.00308425,0.99999524,0.99999033,-0.00439843,0,0)"
+       style="opacity:1;fill:#757575;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4175"
+       width="3.5714214"
+       height="49.645073"
+       x="784.23175"
+       y="399.37082"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       style="opacity:1;fill:#6d6d6d;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4177"
+       width="3.5714285"
+       height="40.357143"
+       x="-421.07779"
+       y="745.57654"
+       transform="scale(-1,1)"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       style="opacity:1;fill:#6d6d6d;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4179"
+       width="3.5714285"
+       height="23.942165"
+       x="368.43347"
+       y="783.20471"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.9164114px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="306.14685"
+       y="822.09338"
+       id="text4181"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199"><tspan
+         sodipodi:role="line"
+         id="tspan4183"
+         x="306.14685"
+         y="822.09338">Couleurs à frapper</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4187"
+       width="32.324883"
+       height="32.324883"
+       x="312.41559"
+       y="511.85117"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       y="416.85117"
+       x="355.06863"
+       height="32.324883"
+       width="32.324883"
+       id="rect4189"
+       style="opacity:1;fill:#ff00c7;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       style="opacity:1;fill:#0025ff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4191"
+       width="32.324883"
+       height="32.324883"
+       x="386.40076"
+       y="484.70831"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:0.19634705;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4193"
+       cx="370.71429"
+       cy="485.21933"
+       r="125"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <rect
+       style="opacity:1;fill:#686868;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4195"
+       width="84.456482"
+       height="7.1428571"
+       x="490"
+       y="488.79077"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.56900597px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="618.26831"
+       y="487.46201"
+       id="text4197"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+       inkscape:export-xdpi="102.23199"
+       inkscape:export-ydpi="102.23199"><tspan
+         sodipodi:role="line"
+         id="tspan4199"
+         x="621.22412"
+         y="487.46201"
+         style="text-align:center;text-anchor:middle">Patterns </tspan><tspan
+         sodipodi:role="line"
+         x="618.26831"
+         y="510.67325"
+         id="tspan4203"
+         style="text-align:center;text-anchor:middle">à résoudre</tspan><tspan
+         sodipodi:role="line"
+         x="618.26831"
+         y="533.88446"
+         id="tspan4201" /></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4136"
+       width="121.42857"
+       height="121.42857"
+       x="660"
+       y="676.64789" />
+    <g
+       id="g4766"
+       transform="matrix(1.2536764,0,0,1.2536764,-33.899658,-187.05142)"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars\Assets\Graphics\Sprites\BlocBorder.png"
+       inkscape:export-xdpi="23.648096"
+       inkscape:export-ydpi="23.648096">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect4140"
+         d="m 672.14287,688.79077 6.60714,6.60715 0,83.92857 -6.60714,6.60715 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         style="opacity:1;fill:#000000;fill-opacity:0.2557078;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 769.28573,688.79077 -6.60714,6.60715 0,83.92857 6.60714,6.60715 z"
+         id="path4143-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="opacity:1;fill:#e3e3e3;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 769.28572,688.79078 -6.60714,6.60714 -83.92857,0 -6.60716,-6.60714 z"
+         id="path4145"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4147"
+         d="m 769.28572,785.93363 -6.60714,-6.60714 -83.92857,0 -6.60716,6.60714 z"
+         style="opacity:1;fill:#656565;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4850"
+       transform="matrix(0.9547115,0,0,0.99264702,633.48289,-434.24297)"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars\Assets\Graphics\Sprites\BlocBorder.png"
+       inkscape:export-xdpi="23.648096"
+       inkscape:export-ydpi="23.648096">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4852"
+         d="m 672.14287,688.79077 6.60714,6.60715 0,83.92857 -6.60714,6.60715 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         style="opacity:1;fill:#787878;fill-opacity:0.2557078;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 769.28573,688.79077 -6.60714,6.60715 0,83.92857 6.60714,6.60715 z"
+         id="path4854"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="opacity:1;fill:#e3e3e3;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 769.28572,688.79078 -6.60714,6.60714 -83.92857,0 -6.60716,-6.60714 z"
+         id="path4856"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4858"
+         d="m 769.28572,785.93363 -6.60714,-6.60714 -83.92857,0 -6.60716,6.60714 z"
+         style="opacity:1;fill:#656565;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       inkscape:export-ydpi="23.648096"
+       inkscape:export-xdpi="23.648096"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars\Assets\Graphics\Sprites\BlocBorder.png"
+       transform="matrix(0.9547115,0,0,0.99264702,754.73852,-434.24299)"
+       id="g4860">
+      <path
+         style="opacity:1;fill:#ffffff;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 672.14287,688.79077 6.60714,6.60715 0,83.92857 -6.60714,6.60715 z"
+         id="path4862"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4864"
+         d="m 769.28573,688.79077 -6.60714,6.60715 0,83.92857 6.60714,6.60715 z"
+         style="opacity:1;fill:#787878;fill-opacity:0.2557078;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path4866"
+         d="m 769.28572,688.79078 -6.60714,6.60714 -83.92857,0 -6.60716,-6.60714 z"
+         style="opacity:1;fill:#e3e3e3;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         style="opacity:1;fill:#656565;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 769.28572,785.93363 -6.60714,-6.60714 -83.92857,0 -6.60716,6.60714 z"
+         id="path4868"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g5264"
+       inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars\Assets\Graphics\Sprites\Background.png"
+       inkscape:export-xdpi="10800"
+       inkscape:export-ydpi="10800">
+      <g
+         id="g5062">
+        <rect
+           inkscape:export-ydpi="102.23199"
+           inkscape:export-xdpi="102.23199"
+           inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars_Mockup.png"
+           y="778.8031"
+           x="1182.442"
+           height="16"
+           width="9"
+           id="rect4834"
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <g
+           inkscape:export-ydpi="23.648096"
+           inkscape:export-xdpi="23.648096"
+           inkscape:export-filename="C:\Users\Maxime\Desktop\Travaux personnels\ColorWars\Assets\Graphics\Sprites\BlocBorder.png"
+           transform="matrix(0.09264704,0,0,0.16470586,1120.17,665.35522)"
+           id="g4840">
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 672.14287,688.79077 6.60714,6.60715 0,83.92857 -6.60714,6.60715 z"
+             id="path4842"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             inkscape:connector-curvature="0"
+             id="path4844"
+             d="m 769.28573,688.79077 -6.60714,6.60715 0,83.92857 6.60714,6.60715 z"
+             style="opacity:1;fill:#787878;fill-opacity:0.2557078;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             inkscape:connector-curvature="0"
+             id="path4846"
+             d="m 769.28572,688.79078 -6.60714,6.60714 -83.92857,0 -6.60716,-6.60714 z"
+             style="opacity:1;fill:#e3e3e3;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <path
+             style="opacity:1;fill:#656565;fill-opacity:0.23515984;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 769.28572,785.93363 -6.60714,-6.60714 -83.92857,0 -6.60716,6.60714 z"
+             id="path4848"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccc" />
+        </g>
+      </g>
+      <circle
+         transform="matrix(0.87003674,0,0,0.87003674,154.25886,102.2555)"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5260)"
+         id="circle5070"
+         cx="1186.942"
+         cy="786.8031"
+         r="3.3928571" />
+      <circle
+         r="2.6307559"
+         cy="786.8031"
+         cx="1186.942"
+         id="path5060"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+  </g>
 </svg>

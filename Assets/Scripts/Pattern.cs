@@ -11,6 +11,15 @@ public class Pattern : MonoBehaviour
     public bool IsColorSwitchEnabled = false;
     public bool IsPositionSwitchEnabled = false;
 
+    [HideInInspector]
+    public float TimeBeforeExplosion;
+    [HideInInspector]
+    public float TimeBetweenSwitchPositions;
+    [HideInInspector]
+    public float TimeSwitchingPositions;
+    [HideInInspector]
+    public float TimeBetweenSwitchColors;
+
     private int _currentNbBlocs;
     private LevelManager _levelManager;
 
@@ -36,25 +45,33 @@ public class Pattern : MonoBehaviour
         for (int i = 0; i < _currentNbBlocs; i++)
         {
             Blocs[i].BlocId = i;
+
+            if (!IsPositionSwitchEnabled)
+            {
+                Blocs[i].gameObject.AddComponent<FloatAround>();
+            }
         }
 
         _weakBlocIds = new int[_levelManager.WeakColorNumber];
 
         AttributeColorsToBlocs();
-        LinkBlocs();
+
+        if(_currentNbBlocs - _levelManager.WeakColorNumber > 0)
+            LinkBlocs();
 
         if (IsColorSwitchEnabled)
-          StartCoroutine(SwitchColors(1.0f));
+          StartCoroutine(SwitchColors(TimeBetweenSwitchColors));
 
         if(IsPositionSwitchEnabled)
-            StartCoroutine(SwitchPositions(1.0f));
+            StartCoroutine(SwitchPositions( TimeBetweenSwitchPositions ) );
 
     }
 
     void AttributeColorsToBlocs()
     {
-        _strongBlocIds = new int[_currentNbBlocs - _levelManager.WeakColorNumber];
 
+        if (_currentNbBlocs <= 0)
+            return;
 
         //Associating weak colors to random IDs
         int[] IdsNotSelected = new int[_currentNbBlocs];
@@ -63,7 +80,7 @@ public class Pattern : MonoBehaviour
 
         int randomID = 0;
 
-        for (int i = 0; i < _levelManager.WeakColorNumber; i++)
+        for (int i = 0; i < _levelManager.WeakColorNumber && i< _currentNbBlocs; i++)
         {
             randomID = IdsNotSelected[Random.Range(0, IdsNotSelected.Length - 1)];
             //Debug.Log("Itération " + i + " : Taille " + IdsNotSelected.Length);
@@ -78,11 +95,26 @@ public class Pattern : MonoBehaviour
         {
             if (((IList<int>)_weakBlocIds).Contains(Blocs[i].BlocId))
             {
+                //Get the other bloc timer
+                Bloc formerWeakBloc = GetBloc(_levelManager.WeakColors[weakCpt]);
+                if (formerWeakBloc != null && formerWeakBloc.BlocId != Blocs[i].BlocId)
+                {
+                    Debug.Log("Found it");
+                    Blocs[i].CurrentTime = formerWeakBloc.CurrentTime;
+                    formerWeakBloc.ResetTimer();
+                    formerWeakBloc.IsWeak = false;
+                }
+
                 Blocs[i].UpdateColor(_levelManager.WeakColors[weakCpt++]);
+                Blocs[i].IsWeak = true;
             }
         }
 
         //Associate all other colors
+        if (_currentNbBlocs - _levelManager.WeakColorNumber <= 0)
+            return;
+
+        _strongBlocIds = new int[ _currentNbBlocs - _levelManager.WeakColorNumber ];
         int j = 0;
         for (int i = 0; i < Blocs.Length; i++)
         {
@@ -90,6 +122,7 @@ public class Pattern : MonoBehaviour
             {
                 _strongBlocIds[j++] = Blocs[i].BlocId;
                 Blocs[i].UpdateColor(_levelManager.StrongColors[Random.Range(0, _levelManager.StrongColors.Length)]);
+                Blocs[i].IsWeak = false;
             }
         }
     }
@@ -139,11 +172,11 @@ public class Pattern : MonoBehaviour
         for (int i = 0; i < _currentNbBlocs - 1; i++)
         {
             LeanTween.moveLocal(GetBloc(BlocChain[i]).gameObject,
-                GetBloc(BlocChain[i + 1]).gameObject.transform.position, 1.0f);
+                GetBloc(BlocChain[i + 1]).gameObject.transform.position, TimeSwitchingPositions );
         }
 
         LeanTween.moveLocal(GetBloc(BlocChain[BlocChain.Length-1]).gameObject,
-                GetBloc(BlocChain[0]).gameObject.transform.position, 1.0f);
+                GetBloc(BlocChain[0]).gameObject.transform.position, TimeSwitchingPositions );
 
     }
 
@@ -155,6 +188,9 @@ public class Pattern : MonoBehaviour
 
     void LinkBlocs()
     {
+        if(_currentNbBlocs <= 1)
+            return;
+
         //Define the chain size according to the numbers of blocs and the number of weak colors.
         int chainSize = (int)Mathf.Floor((float)(_currentNbBlocs / _levelManager.WeakColorNumber) - 1);
 
@@ -162,6 +198,9 @@ public class Pattern : MonoBehaviour
         int lastChainSize = chainSize + 1;
 
         //Copying the strong points
+        if (_strongBlocIds == null)
+            return;
+
         int[] tempStrongPoints = new int[_strongBlocIds.Length];
         Array.Copy(_strongBlocIds, 0, tempStrongPoints, 0, _strongBlocIds.Length);
 
@@ -202,11 +241,26 @@ public class Pattern : MonoBehaviour
         return null;
     }
 
+    Bloc GetBloc( Color color )
+    {
+        for ( int i = 0; i < Blocs.Length; i++ )
+        {
+            if ( Blocs[ i ].BlocColor.Equals(color) )
+                return Blocs[ i ];
+        }
+
+        return null;
+    }
+
     IEnumerator AttributeColorToBloc(int id, Color color, float time)
     {
         _effectLock = true;
         yield return new WaitForSeconds(time);
-        GetBloc(id).UpdateColor(color);
+        if (GetBloc(id) != null)
+        {
+            GetBloc(id).UpdateColor(color);
+            GetBloc(id).IsWeak = true;
+        }
         _effectLock = false;
     }
 

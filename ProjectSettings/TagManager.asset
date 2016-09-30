@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LevelManager
   - Bloc
+  - WeakColorUI
   layers:
   - Default
   - TransparentFX

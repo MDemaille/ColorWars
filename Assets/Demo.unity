@@ -102,6 +102,7 @@ GameObject:
   - 124: {fileID: 195716678}
   - 92: {fileID: 195716677}
   - 81: {fileID: 195716676}
+  - 114: {fileID: 195716681}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -177,6 +178,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &195716681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 195716675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb265667310f0fb4887653fe1be7282a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugMode: 0
+  shakeAmount: 0
+  shakeDuration: 0
+  smooth: 0
+  smoothAmount: 5
 --- !u!1 &359429314
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,13 +250,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 359429314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 1}
+  m_LocalPosition: {x: -0, y: -0.37, z: 0}
+  m_LocalScale: {x: 0.5825355, y: 0.561285, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
---- !u!1001 &448855551
+--- !u!1001 &776343980
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -335,6 +352,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014009178376, guid: 09aafbc469aa7a047b20b9ddf22fee82, type: 2}
+      propertyPath: m_TagString
+      value: WeakColorUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 09aafbc469aa7a047b20b9ddf22fee82, type: 2}
@@ -448,6 +469,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: AuthorizedShapes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013690049366, guid: ad3fb772c57181949ac08368fea5763e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.074369356
@@ -479,6 +505,56 @@ Prefab:
     - target: {fileID: 4000013690049366, guid: ad3fb772c57181949ac08368fea5763e, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: AuthorizedShapes.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: MaxSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: MaxSizeSquare
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: MaxSizeCircle
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: WeakColorNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: AuthorizedShapes.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: AuthorizedShapes.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: TimeBetweenSwitchPositions
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: TimeSwitchingPositions
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013110126344, guid: ad3fb772c57181949ac08368fea5763e,
+        type: 2}
+      propertyPath: TimeBeforeBubblesExplosion
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad3fb772c57181949ac08368fea5763e, type: 2}

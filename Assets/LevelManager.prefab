@@ -51,8 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 189e629fbf1305c45be5c967bd034740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WeakColorNumber: 1
-  Bloc: {fileID: 1000011264787650, guid: 7be29e3cfda6b564dbb810537152edfd, type: 2}
+  WeakColorNumber: 2
+  Bloc: {fileID: 1000013009415892, guid: 985cd57d02dfb7c4dbb3105f1eb0fcaa, type: 2}
   AllColors:
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 0, g: 0.21379304, b: 1, a: 1}
@@ -66,3 +66,4 @@ MonoBehaviour:
   MaxSize: 4
   SwitchColorProbability: 0.5
   SwitchPositionProbability: 0.5
+  TimeBeforeBubblesExplosion: 2

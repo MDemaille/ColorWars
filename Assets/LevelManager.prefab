@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 189e629fbf1305c45be5c967bd034740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOver: 0
   WeakColorNumber: 2
   Bloc: {fileID: 1000013009415892, guid: 985cd57d02dfb7c4dbb3105f1eb0fcaa, type: 2}
   AllColors:
@@ -62,8 +63,19 @@ MonoBehaviour:
   - {r: 0.558884, g: 0.03746756, b: 0.5661765, a: 1}
   - {r: 0, g: 0.95862055, b: 1, a: 1}
   - {r: 1, g: 0, b: 0.64137936, a: 1}
-  AuthorizedShapes: 00000000
-  MaxSize: 4
-  SwitchColorProbability: 0.5
-  SwitchPositionProbability: 0.5
-  TimeBeforeBubblesExplosion: 2
+  AuthorizedShapes: 01000000000000000100000000000000
+  MaxSizeSquare: 3
+  MaxSizeCircle: 3
+  SwitchColorProbability: 0
+  SwitchPositionProbability: 0
+  SwitchWeakColorProbability: 0
+  Health: 10
+  Score: 0
+  Combo: 0
+  Multiplier: 1
+  DamageTakenDuringPattern: 0
+  TimeBeforeBubblesExplosion: 3
+  TimeBeforeBubblesLerpColor: 0.2
+  TimeBetweenSwitchColors: 1.5
+  TimeBetweenSwitchPositions: 2
+  TimeSwitchingPositions: 0.4

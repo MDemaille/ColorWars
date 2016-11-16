@@ -4,7 +4,6 @@ using System.Collections;
 
 public class WeakColorsUI : MonoBehaviour
 {
-
     public GameObject WeakColorDisplay;
 
     private LevelManager _levelManager;
@@ -28,6 +27,12 @@ public class WeakColorsUI : MonoBehaviour
 
     public void UpdateWeakColors()
     {
+        GameObject[] toDestroy = GameObject.FindGameObjectsWithTag("WeakColorPanel");
+        foreach(GameObject panel in toDestroy)
+            Destroy(panel);
+
+        StartCoroutine(VisualEffects.BlinkColorsBackground(_levelManager.WeakColors, 0.1f, true));
+
         if ( WeakColorUI != null )
         {
             for ( int i = 0; i < WeakColorUI.Length; i++ )
@@ -48,7 +53,6 @@ public class WeakColorsUI : MonoBehaviour
             currentDisplay.transform.localPosition = new Vector3( xPos, 0, 0 );
 
             currentDisplay.GetComponent<Image>().color = _levelManager.WeakColors[ i ];
-
         }
     }
 

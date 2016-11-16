@@ -7,6 +7,9 @@ TagManager:
   - LevelManager
   - Bloc
   - WeakColorUI
+  - Background
+  - GameOver
+  - WeakColorPanel
   layers:
   - Default
   - TransparentFX

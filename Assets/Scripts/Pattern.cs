@@ -19,6 +19,8 @@ public class Pattern : MonoBehaviour
     public float TimeSwitchingPositions;
     [HideInInspector]
     public float TimeBetweenSwitchColors;
+    [HideInInspector]
+    public float TimeBeforeLerpColors;
 
     private int _currentNbBlocs;
     private LevelManager _levelManager;
@@ -286,8 +288,13 @@ public class Pattern : MonoBehaviour
 
     }
 
-    private void Death()
+    public void Death()
     {
+        if(!_levelManager.DamageTakenDuringPattern)
+            _levelManager.IncreaseMultiplier();
+        else
+            _levelManager.DecreaseMultiplier();
+
         _levelManager.CreatePattern();
         Destroy(gameObject);
     }

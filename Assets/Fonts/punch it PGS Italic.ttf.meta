@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e70fe2f03e1cf714fabdb4ce781b0355
+timeCreated: 1479037015
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - punch it PGS
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 731cb85dd61617e429ee1fc43985adab, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
